@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8dc;
+  padding: 30px;
+}
+
+.table-container {
+  max-width: 1000px;
+  margin: 70px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse; 
+  font-size: 0.95em;
+  text-align: left;
+  border: 2px solid #009879; 
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #009879; 
+}
+
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.status.active {
+  background-color: #28a745;
+}
+
+.status.inactive {
+  background-color: #dc3545;
+}
+
+.status.pending {
+  background-color: #ffc107;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.85em;
+  color: white;
+}
+
+.edit-btn {
+  background-color: #007bff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.edit-btn:hover {
+  background-color: #0069d9;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+button {
+  display: block; 
+  width: 80px;    
+  margin: 5px 0;  
+}
